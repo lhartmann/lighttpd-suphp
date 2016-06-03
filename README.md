@@ -25,8 +25,9 @@ Combined with userdir functionality this module allows users to serve php script
 - I never checked for `..` in `SCRIPT_FILENAME`. I just hoped lighttpd clears `..` out of it.
 
 ## Setting up in ubuntu:
-- Install lighttpd and php5-cgi:
-  - `sudo apt-get install lighttpd php5-cgi`
+Tested on kubuntu 16.04 xenial:
+- Install lighttpd and php-cgi:
+  - `sudo apt-get install lighttpd php-cgi`
 - Run install.sh
   - `./install.sh`
 - Enable userdir and suphp modules:
